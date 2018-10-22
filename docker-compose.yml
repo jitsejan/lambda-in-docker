@@ -1,0 +1,5 @@
+version: '3'
+services:
+  pythonlambda:
+    build: .
+    command: my_module.my_handler
